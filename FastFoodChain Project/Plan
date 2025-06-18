@@ -1,0 +1,32 @@
+Read Me file
+
+Data is from:
+1) 
+https://openintro.org/data/index.php?data=fastfood
+
+2)
+https://www.foodindustry.com/articles/the-top-50-fast-food-chains-in-the-u-s-2024/
+
+
+Steps:
+In Python - 
+	1) Clean csv data for 'Â® ' to ' ' and 'â€“' to '-' in 'item' column.  
+	2) Add/make new to Fast Food Nutrition csv file  
+
+	3) Web scrape table from top 50 F.F. chains on food industry site  
+	4) Obtain chains only from fast food nutrition  
+	5) Remove "'" to '' from company column  
+	6) Remove '$' to '' and ',' to '' in Revenue (Millions) 
+	7) Remove ',' to '' in Number of Locations column 
+	8) Update table and add Dairy Queen Locations and Revenue
+	9) Make new Chain statistics csv file
+Machine Learning with Python -
+	1) Import libraries and read in csv files
+	2) Check to see if Fast Food Chains are the same and if not 
+		replace them to be the same (Check if needed)
+	3) Match column names to 'Company'
+	4) Merge datasets together on 'Company'
+	5) Calculate the average from the nutrition dataset by the companies
+	6) Rename columns to match up value with names
+	7) Merge new renamed columns with data set 'Chains' so it could be used
+		for visualization.
