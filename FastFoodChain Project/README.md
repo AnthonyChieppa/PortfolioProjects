@@ -1,5 +1,3 @@
-Read Me file
-
 Data is from:
 1) 
 https://openintro.org/data/index.php?data=fastfood
