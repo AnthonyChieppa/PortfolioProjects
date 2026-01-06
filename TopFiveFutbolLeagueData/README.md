@@ -1,28 +1,25 @@
+# Player Performance Visualization Dashboard
 
-README: Player Performance Visualization Dashboard
---------------------------------------------------
+# Analytical Player Stats 2024-2025 Big 5 European Leagues
+### Sources: 
+1) Player Stats - https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats
 
-Analytical Player Stats 2024-2025 Big 5 European Leagues
-Sources: 
-Player Stats - https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats
+2) Shooting - https://fbref.com/en/comps/Big5/shooting/players/Big-5-European-Leagues-Stats
 
-Shooting - https://fbref.com/en/comps/Big5/shooting/players/Big-5-European-Leagues-Stats
+3) Passing - https://fbref.com/en/comps/Big5/passing/players/Big-5-European-Leagues-Stats
 
-Passing - https://fbref.com/en/comps/Big5/passing/players/Big-5-European-Leagues-Stats
+4) Goal and Shot Creation - https://fbref.com/en/comps/Big5/gca/players/Big-5-European-Leagues-Stats
 
-Goal and Shot Creation - https://fbref.com/en/comps/Big5/gca/players/Big-5-European-Leagues-Stats
+5) Defensive Actions - https://fbref.com/en/comps/Big5/defense/players/Big-5-European-Leagues-Stats
 
-Defensive Actions - https://fbref.com/en/comps/Big5/defense/players/Big-5-European-Leagues-Stats
+6) Possession Stats - https://fbref.com/en/comps/Big5/possession/players/Big-5-European-Leagues-Stats
 
-Possession Stats - https://fbref.com/en/comps/Big5/possession/players/Big-5-European-Leagues-Stats
+7) Miscellaneous Stats - https://fbref.com/en/comps/Big5/misc/players/Big-5-European-Leagues-Stats
 
-Miscellaneous Stats - https://fbref.com/en/comps/Big5/misc/players/Big-5-European-Leagues-Stats
-
-
-Project Overview:
+# Project Overview:
 This project builds a comprehensive visual dashboard for analyzing player performance across the top five European football leagues. The process includes scraping, preprocessing, structured querying, and advanced visualization.
 
-Workflow Summary:
+#Workflow Summary:
 
 1. Data Collection:
    - Source: FBref player statistics pages
@@ -47,11 +44,12 @@ Workflow Summary:
    - Built radar charts to visualize percentile-based metrics and player comparisons
    - Integrated parameters to allow user-controlled selection and dual-player comparisons
 
-Features:
+# Features:
 - Percentile-based radar charts per position
 - Dynamic player comparison using parameter controls
 - Clean positional summaries including nation, age, and minutes played
 - Modular workflow allowing updates with new seasonal data
 
 Author: Anthony Chieppa
+
 Tools: Python, BeautifulSoup, Pandas, SQL, Tableau
